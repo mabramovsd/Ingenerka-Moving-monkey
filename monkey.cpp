@@ -44,7 +44,7 @@ int main()
 
 void planeDraw(int x, int y, double zoom, int countWindows, int countMotors, bool rearMotor, int chassisAngle)
 {
-    double cAngle = chassisAngle*txPi/180;
+    double cAngle = chassisAngle*M_PI/180;
     txSetColor (TX_BLACK, 2);
     txSetFillColor (TX_YELLOW);
 
