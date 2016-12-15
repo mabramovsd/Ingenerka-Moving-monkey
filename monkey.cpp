@@ -1,4 +1,4 @@
-#include "TXLib.h"
+#include "TXLib.h" тест ci
 
 void planeDraw(int x, int y, double zoom, int countWindows, int countMotors, bool rearMotor, int chassisAngle);
 
